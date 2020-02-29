@@ -1,9 +1,8 @@
-var seedDice1 = 1;
-var seedDice2 = 1;
+var seedDice1, seedDice2;
 
-    function winner() {
+    function winner() { //update the h1 content
         if(seedDice1 > seedDice2){
-          document.querySelector("h1").innerHTML = "Player 1 Wins "; //update the h1 content
+          document.querySelector("h1").innerHTML = "Player 1 Wins "; 
         }
         else if(seedDice1 < seedDice2){
           document.querySelector("h1").innerHTML = "Player 2 Wins";
@@ -26,5 +25,5 @@ var seedDice2 = 1;
       winner();
     }
 
-  document.querySelector("button").addEventListener("click", startGame);
+  document.querySelector("button").addEventListener("click", startGame); //handle the game
 
