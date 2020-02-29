@@ -1,5 +1,5 @@
 # JavaScriptCode
-## Some code in JavaScript.
+## Some small projects in JavaScript.
 
 The Starter folder is a project part of a course about JavaScript. It is a simple dice game for 2 players.
 
